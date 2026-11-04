@@ -1,6 +1,10 @@
 count = int(input())
 
+allist, blist, clist = []
+
 for _ in range(count):
-  airline_list = list(map(int, input().split()))
+  parti, price = map(int, input().split()))
+
+  if parti == 
 
 print(airline_list)
