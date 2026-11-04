@@ -1,3 +1,6 @@
-airline_list = list(map(int, input().split()))
+count = int(input())
+
+for _ in range(count):
+  airline_list = list(map(int, input().split()))
 
 print(airline_list)
