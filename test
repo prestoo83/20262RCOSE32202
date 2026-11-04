@@ -21,4 +21,8 @@ for _ in range(count):
     else:
       clist.append(price)
 
+price_list = [alist[-1], blist[-1], clist[-1]]
+
+answer_list = sorted(price_list, reverse = True, key = lambda)
+
 print(airline_list)
